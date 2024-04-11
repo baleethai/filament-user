@@ -103,8 +103,8 @@ class FilamentUserServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('filament-user', __DIR__ . '/../resources/dist/components/filament-user.js'),
-            Css::make('filament-user-styles', __DIR__ . '/../resources/dist/filament-user.css'),
-            Js::make('filament-user-scripts', __DIR__ . '/../resources/dist/filament-user.js'),
+            // Css::make('filament-user-styles', __DIR__ . '/../resources/dist/filament-user.css'),
+            // Js::make('filament-user-scripts', __DIR__ . '/../resources/dist/filament-user.js'),
         ];
     }
 
